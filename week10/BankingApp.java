@@ -4,8 +4,8 @@ public class BankingApp
     public static void main(String[] args) 
     {
 
-        SavingAccount sa = new SavingAccount(101, "Sandeep", 50000);
-        CurrentAccount ca = new CurrentAccount(201, "Ramesh", 30000);
+        SavingAccount sa = new SavingAccount(101, "Sabin", 50000);
+        CurrentAccount ca = new CurrentAccount(201, "Ratna", 30000);
 
         System.out.println("----- Savings Account -----");
         System.out.println(sa);

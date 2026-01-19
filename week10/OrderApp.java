@@ -3,8 +3,8 @@ public class OrderApp
 {
      public static void main(String[] args)
      {
-        NormalOrder no = new NormalOrder(101, "Sandeep", 2000);
-        PremiumOrder po = new PremiumOrder(201, "Ramesh", 5000);
+        NormalOrder no = new NormalOrder(101, "Sabin", 2000);
+        PremiumOrder po = new PremiumOrder(201, "Kshitiz", 5000);
         System.out.println("----- Normal Order -----");
         System.out.println(no);
         System.out.println("Final Amount (No Discount): " + no.calculateFinalAmount());

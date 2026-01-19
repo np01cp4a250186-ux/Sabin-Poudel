@@ -3,7 +3,7 @@ public class HospitalApp
 {
     public static void main(String[] args)
     {
-        Doctor d1 = new Doctor(101, "Dr. Sandeep", 50000," Cardiology", 15000);
+        Doctor d1 = new Doctor(101, "Dr. Sabin", 50000," Cardiology", 15000);
         Nurse n1 = new Nurse(201, "Anita", 30000, "Night", 5000);
         System.out.println("----- Doctor Details -----");
         System.out.println(d1);

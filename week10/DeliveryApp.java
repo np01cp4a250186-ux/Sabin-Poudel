@@ -3,9 +3,9 @@ public class DeliveryApp
 {
     public static void main(String[] args)
     {
-        BikeDelivery b1 = new BikeDelivery(101, "Sandeep", 12000);
+        BikeDelivery b1 = new BikeDelivery(101, "Sabin", 12000);
 
-        CarDelivery c1 = new CarDelivery(201, "Ramesh", 15000);
+        CarDelivery c1 = new CarDelivery(201, "Kshitiz", 15000);
         System.out.println("----- Bike Delivery Partner -----");
         System.out.println(b1);
         System.out.println("Payment (Normal): " + b1.calculatePayment());
